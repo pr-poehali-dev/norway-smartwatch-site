@@ -16,7 +16,7 @@ const Index = () => {
       name: 'Snapt Stara Fripir',
       price: 2419,
       oldPrice: 2999,
-      image: 'https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=500&h=500&fit=crop',
+      image: 'https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=500',
       features: ['GPS', 'Vanntett', 'Hjertefrekvens', 'Søvnsporing'],
       badge: 'Populær'
     },
@@ -25,7 +25,7 @@ const Index = () => {
       name: 'Elite Pro X',
       price: 3299,
       oldPrice: null,
-      image: 'https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=500&h=500&fit=crop',
+      image: 'https://images.pexels.com/photos/393047/pexels-photo-393047.jpeg?auto=compress&cs=tinysrgb&w=500',
       features: ['4G LTE', 'EKG', 'Oksygen', 'Always-on'],
       badge: 'Ny'
     },
@@ -34,7 +34,7 @@ const Index = () => {
       name: 'Sport Active',
       price: 1899,
       oldPrice: 2299,
-      image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500&h=500&fit=crop',
+      image: 'https://images.pexels.com/photos/279949/pexels-photo-279949.jpeg?auto=compress&cs=tinysrgb&w=500',
       features: ['50+ treningsmoduser', '14 dagers batteri', 'GPS'],
       badge: null
     },
@@ -43,7 +43,7 @@ const Index = () => {
       name: 'Elegant Classic',
       price: 2799,
       oldPrice: null,
-      image: 'https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=500&h=500&fit=crop',
+      image: 'https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&w=500',
       features: ['AMOLED skjerm', 'Trådløs lading', 'Stemmestyring'],
       badge: null
     }
@@ -139,7 +139,7 @@ const Index = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-blue-500/20 rounded-full blur-3xl"></div>
             <img
-              src="https://images.unsplash.com/photo-1434493907317-a46b5bbe7834?w=800&h=800&fit=crop"
+              src="https://images.pexels.com/photos/437037/pexels-photo-437037.jpeg?auto=compress&cs=tinysrgb&w=800"
               alt="Smartklokke"
               className="relative rounded-2xl shadow-2xl animate-scale-in"
             />
