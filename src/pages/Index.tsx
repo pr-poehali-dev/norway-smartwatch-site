@@ -16,7 +16,7 @@ const Index = () => {
       name: 'Snapt Stara Fripir',
       price: 2419,
       oldPrice: 2999,
-      image: 'https://picsum.photos/seed/watch1/500/500',
+      image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="500" height="500"%3E%3Crect width="500" height="500" fill="%23e5e7eb"/%3E%3Crect x="150" y="100" width="200" height="250" rx="40" fill="%231f2937"/%3E%3Crect x="170" y="120" width="160" height="180" rx="20" fill="%233b82f6"/%3E%3Ctext x="250" y="220" font-family="Arial" font-size="24" fill="white" text-anchor="middle"%3EWatch%3C/text%3E%3C/svg%3E',
       features: ['GPS', 'Vanntett', 'Hjertefrekvens', 'Søvnsporing'],
       badge: 'Populær'
     },
@@ -25,7 +25,7 @@ const Index = () => {
       name: 'Elite Pro X',
       price: 3299,
       oldPrice: null,
-      image: 'https://picsum.photos/seed/watch2/500/500',
+      image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="500" height="500"%3E%3Crect width="500" height="500" fill="%23f3f4f6"/%3E%3Crect x="150" y="100" width="200" height="250" rx="40" fill="%236b7280"/%3E%3Crect x="170" y="120" width="160" height="180" rx="20" fill="%23000"/%3E%3Ctext x="250" y="220" font-family="Arial" font-size="24" fill="%2310b981" text-anchor="middle"%3EPro X%3C/text%3E%3C/svg%3E',
       features: ['4G LTE', 'EKG', 'Oksygen', 'Always-on'],
       badge: 'Ny'
     },
@@ -34,7 +34,7 @@ const Index = () => {
       name: 'Sport Active',
       price: 1899,
       oldPrice: 2299,
-      image: 'https://picsum.photos/seed/watch3/500/500',
+      image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="500" height="500"%3E%3Crect width="500" height="500" fill="%23dbeafe"/%3E%3Crect x="150" y="100" width="200" height="250" rx="40" fill="%233b82f6"/%3E%3Crect x="170" y="120" width="160" height="180" rx="20" fill="%231e40af"/%3E%3Ctext x="250" y="220" font-family="Arial" font-size="24" fill="white" text-anchor="middle"%3ESport%3C/text%3E%3C/svg%3E',
       features: ['50+ treningsmoduser', '14 dagers batteri', 'GPS'],
       badge: null
     },
@@ -43,7 +43,7 @@ const Index = () => {
       name: 'Elegant Classic',
       price: 2799,
       oldPrice: null,
-      image: 'https://picsum.photos/seed/watch4/500/500',
+      image: 'data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="500" height="500"%3E%3Crect width="500" height="500" fill="%23fef3c7"/%3E%3Crect x="150" y="100" width="200" height="250" rx="40" fill="%23d97706"/%3E%3Crect x="170" y="120" width="160" height="180" rx="20" fill="%23fbbf24"/%3E%3Ctext x="250" y="220" font-family="Arial" font-size="24" fill="%23000" text-anchor="middle"%3EClassic%3C/text%3E%3C/svg%3E',
       features: ['AMOLED skjerm', 'Trådløs lading', 'Stemmestyring'],
       badge: null
     }
@@ -139,7 +139,7 @@ const Index = () => {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-blue-500/20 rounded-full blur-3xl"></div>
             <img
-              src="https://picsum.photos/seed/hero/800/800"
+              src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='800' height='800'%3E%3Cdefs%3E%3ClinearGradient id='grad' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' style='stop-color:%233b82f6;stop-opacity:1' /%3E%3Cstop offset='100%25' style='stop-color:%231e40af;stop-opacity:1' /%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='800' height='800' fill='%23f8fafc'/%3E%3Ccircle cx='400' cy='400' r='180' fill='url(%23grad)'/%3E%3Crect x='250' y='250' width='300' height='300' rx='60' fill='%231f2937'/%3E%3Crect x='280' y='280' width='240' height='240' rx='40' fill='%233b82f6'/%3E%3Ctext x='400' y='420' font-family='Arial' font-size='36' font-weight='bold' fill='white' text-anchor='middle'%3ESMARTWATCH%3C/text%3E%3C/svg%3E"
               alt="Smartklokke"
               className="relative rounded-2xl shadow-2xl animate-scale-in"
             />
